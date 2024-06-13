@@ -26,3 +26,5 @@ We created "AboutUs" page and now we can ran out about us page and we had to edi
 now we are going to create a database for our site's producats.
 
 1520 UTC
+We added database and create migrations folder
+file name "20240613191925_InitialCreate.cs"
