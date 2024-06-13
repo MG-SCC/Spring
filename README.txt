@@ -32,3 +32,6 @@ file name "20240613191925_InitialCreate.cs"
 1530 UTC
 We tried to do somechanges in seedata file and add some products.
 try to add some CSS for website
+
+1535 UTC
+We updated seed data as per our requirement 
