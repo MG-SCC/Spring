@@ -9,5 +9,9 @@ public class Furniture
     public string? Colour { get; set; }
 
     public string? Type { get; set; }
+    public string? Material { get; set; }
+
     public decimal Price { get; set; }
+
+    public decimal Rating { get; set; }
 }
