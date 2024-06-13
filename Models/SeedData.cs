@@ -14,7 +14,7 @@ public static class SeedData
             serviceProvider.GetRequiredService<
                 DbContextOptions<SpringContext>>()))
         {
-            // Look for any Furnitures.
+            // Look for any furniture.
             if (context.Furniture.Any())
             {
                 return;   // DB has been seeded
@@ -22,28 +22,28 @@ public static class SeedData
             context.Furniture.AddRange(
                 new Furniture
                 {
-                    Name = "Super Seater",
+                    Name = "Comfort Seat",
                     Colour = "Blue",
                     Type = "Recliner",
                     Price = 799M
                 },
                 new Furniture
                 {
-                    Name = "Super Sleeper ",
-                    Colour = "Beige",
+                    Name = "Sleepwell ",
+                    Colour = "Floral",
                     Type = "Mattress",
                     Price = 899M
                 },
                 new Furniture
                 {
-                    Name = "Super Eater",
+                    Name = "Family Diner",
                     Colour = "Oak",
                     Type = "Table",
                     Price = 999M
                 },
                 new Furniture
                 {
-                    Name = "Hide and Sleep",
+                    Title = "Hide and Sleep",
                     Colour = "Red",
                     Type = "Sofa Bed",
                     Price = 399M

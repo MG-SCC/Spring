@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <Compile Remove="Models\Class.cs" />
+    <Compile Remove="Models\SeedData.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\SeedData.cs" />
   </ItemGroup>
 
   <ItemGroup>
