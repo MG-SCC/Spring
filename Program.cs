@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Spring.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<SpringContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SpringContext") ?? throw new InvalidOperationException("Connection string 'SpringContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
