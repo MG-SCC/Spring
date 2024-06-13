@@ -24,6 +24,7 @@ we just start to make "about us" page which indicates some information related t
 
 We created "AboutUs" page and now we can ran out about us page and we had to edit it and add some image and make it attractive.
 now we are going to create a database for our site's producats.
+URL:https://localhost:7256/AboutUs
 
 1520 UTC
 We added database and create migrations folder
@@ -32,3 +33,6 @@ file name "20240613191925_InitialCreate.cs"
 1530 UTC
 We tried to do somechanges in seedata file and add some products.
 try to add some CSS for website
+
+1535 UTC
+We updated seed data as per our requirement 
