@@ -28,3 +28,6 @@ now we are going to create a database for our site's producats.
 1520 UTC
 We added database and create migrations folder
 file name "20240613191925_InitialCreate.cs"
+
+1530 UTC
+We tried to do somechanges in seedata file and add some products.
