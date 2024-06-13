@@ -36,3 +36,6 @@ try to add some CSS for website
 
 1535 UTC
 We updated seed data as per our requirement 
+
+1416 UTC
+we are getting color section and add 10 items
